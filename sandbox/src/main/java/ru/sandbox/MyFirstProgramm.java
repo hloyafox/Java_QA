@@ -1,3 +1,5 @@
+package ru.sandbox;
+
 public class MyFirstProgramm {
 
     public static void main(String[] args) {
