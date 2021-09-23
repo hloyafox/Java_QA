@@ -16,7 +16,7 @@ public class UntitledTestCase {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\bin\\geckodriver.exe");
+    System.setProperty("webdriver.gecko.driver", "D:\\WebDriver\\bin\\geckodriver.exe");
     driver = new FirefoxDriver();
     baseUrl = "https://www.google.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
