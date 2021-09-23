@@ -1,6 +1,4 @@
 apply plugin: 'java'
-apply plugin: 'application'
-mainClassName = "MyFirstProgramm"
 
 repositories {
     mavenCentral()

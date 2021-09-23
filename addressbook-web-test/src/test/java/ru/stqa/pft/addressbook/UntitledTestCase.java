@@ -24,7 +24,7 @@ public class UntitledTestCase {
 
   @Test
   public void testUntitledTestCase() throws Exception {
-    driver.get("http://localhost:8080/addressbook/addressbook/");
+    driver.get("http://localhost:8080/addressbook/");
     driver.findElement(By.name("user")).click();
     driver.findElement(By.name("user")).clear();
     driver.findElement(By.name("user")).sendKeys("admin");

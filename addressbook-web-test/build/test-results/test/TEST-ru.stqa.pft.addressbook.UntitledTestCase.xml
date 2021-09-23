@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.UntitledTestCase" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-22T12:59:30" hostname="IS-KONSTANTINOV" time="1.417">
+<testsuite name="ru.stqa.pft.addressbook.UntitledTestCase" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-23T05:57:23" hostname="IS-KONSTANTINOV" time="1.38">
   <properties/>
-  <testcase name="testUntitledTestCase" classname="ru.stqa.pft.addressbook.UntitledTestCase" time="1.417"/>
+  <testcase name="testUntitledTestCase" classname="ru.stqa.pft.addressbook.UntitledTestCase" time="1.38"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1632315567969	geckodriver	INFO	Listening on 127.0.0.1:10517
-1632315568744	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\KONSTA~1\\AppData\\Local\\Temp\\rust_mozprofileH1MaUB"
+1632376640711	geckodriver	INFO	Listening on 127.0.0.1:15295
+1632376641538	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\KONSTA~1\\AppData\\Local\\Temp\\rust_mozprofile9FcPlC"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1632315570672	Marionette	INFO	Listening on port 53529
-1632315570797	Marionette	WARN	TLS certificate errors will be ignored for this session
-сент. 22, 2021 4:59:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1632376643562	Marionette	INFO	Listening on port 58785
+1632376643581	Marionette	WARN	TLS certificate errors will be ignored for this session
+сент. 23, 2021 9:57:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
