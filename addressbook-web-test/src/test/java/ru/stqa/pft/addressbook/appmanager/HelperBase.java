@@ -10,14 +10,19 @@ public class HelperBase {
     this.driver = driver;
   }
 
-  protected void click(By locator) {
-    driver.findElement(locator).click();
+  public void click(By locator) {
+    locator.findElement(driver).click();
   }
 
   protected void type(By locator, String text) {
     click(locator);
-    driver.findElement(locator).clear();
-    driver.findElement(locator).sendKeys(text);
+    if (text != null) {
+      String existingText = driver.findElement(locator).getAttribute("value");
+      if (! text.equals(existingText)) {
+        driver.findElement(locator).clear();
+        driver.findElement(locator).sendKeys(text);
+      }
+    }
   }
 
   public boolean isElementPresent(By by) {

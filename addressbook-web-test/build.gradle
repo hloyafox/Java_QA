@@ -6,6 +6,7 @@ repositories {
 dependencies {
     implementation 'org.testng:testng:7.4.0'
     implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-rc-1'
+    implementation 'org.jetbrains:annotations:20.1.0'
 }
 
 test {
