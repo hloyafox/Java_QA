@@ -39,11 +39,11 @@ public class ApplicationManager {
       driver = new EdgeDriver();
     }
 
-    baseUrl = "https://www.google.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     groupHelper = new GroupHelper(driver);
     navigationHelper = new NavigationHelper(driver);
     sessionHelper = new SessionHelper(driver);
+    contactHelper = new ContactHelper(driver);
     sessionHelper.login("admin", "secret");
   }
 

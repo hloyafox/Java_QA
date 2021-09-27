@@ -1,5 +1,6 @@
 package ru.stqa.pft.addressbook.appmanager;
 
+import org.jetbrains.annotations.NotNull;
 import org.openqa.selenium.*;
 
 public class HelperBase {
@@ -10,7 +11,7 @@ public class HelperBase {
     this.driver = driver;
   }
 
-  public void click(By locator) {
+  public void click(@NotNull By locator) {
     locator.findElement(driver).click();
   }
 
