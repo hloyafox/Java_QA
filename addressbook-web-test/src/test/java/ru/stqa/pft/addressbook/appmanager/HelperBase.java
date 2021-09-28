@@ -11,7 +11,7 @@ public class HelperBase {
     this.driver = driver;
   }
 
-  public void click(@NotNull By locator) {
+  public void click(By locator) {
     locator.findElement(driver).click();
   }
 
