@@ -2,6 +2,7 @@ package ru.stqa.pft.addressbook.appmanager;
 
 import org.jetbrains.annotations.NotNull;
 import org.openqa.selenium.*;
+import ru.stqa.pft.addressbook.tests.TestBase;
 
 public class HelperBase {
   public WebDriver driver;

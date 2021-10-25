@@ -10,7 +10,7 @@ public class ContactModificationTest extends TestBase {
     app.getContactHelper().initContactModification();
     app.getContactHelper().fillContactForm(new ContactData("change1", "change2", "change3", "change4", null), false);
     app.getContactHelper().submitContactModification("//div[@id='content']/form/input[22]");
-    app.getContactHelper().returnToHomePage();
+    app.getNavigationHelper().returnToHomePage();
 
   }
 

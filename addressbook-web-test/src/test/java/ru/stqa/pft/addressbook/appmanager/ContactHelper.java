@@ -43,10 +43,6 @@ public class ContactHelper extends HelperBase {
     click(By.xpath(update));
   }
 
-  public void returnToHomePage() {
-    click(By.linkText("home page"));
-  }
-
 }
 
 

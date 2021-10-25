@@ -39,4 +39,26 @@ public class GroupHelper extends HelperBase {
   public void submitGroupModification() {
     click(By.name("update"));
   }
+
+  public void returnToGroupPage()  {
+      if (isElementPresent(By.tagName("h1"))
+              && driver.findElement(By.tagName("h1")).getText().equals("Groups")
+              && isElementPresent(By.name("new"))) {
+        return;
+      }
+      click(By.linkText("groups"));
+    }
+
+
+  public void createGroup(GroupData group) {
+
+    initGroupCreation("new");
+    fillGroupForm(group);
+    submitGroupCreation("submit");
+    returnToGroupPage();
+  }
+
+  public boolean isThereAGroup() {
+    return isElementPresent(By.name("selected[]"));
+  }
 }
